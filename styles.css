@@ -1,22 +1,24 @@
-#profile-photo{
+#profile-photo {
     border-radius: 50%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-#introduction{
+#introduction {
     background-image: url("./Images/title background scenery.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-#introduction > div > div > p{
+
+#introduction>div>div>p {
     color: #E3FEF7;
 }
 
-#introduction > div > h1{
+#introduction>div>h1 {
     color: #003C43 !important;
 }
 
-#skills, #projects {
-    background-color:  #f8f9fa !important;
+#skills,
+#projects {
+    background-color: #f8f9fa !important;
     backdrop-filter: blur(100px) !important;
 }
